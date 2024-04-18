@@ -83,3 +83,10 @@ docker compose -f docker-compose-crawler.yaml up -d
 ## 4 Run API
 
 `docker compose -f docker-compose-api.yaml up -d`
+
+# Day 3
+
+## Build and push image to docker hub
+
+`docker build . -t nintran52/crawler-app`
+`docker push nintran52/crawler-app`
