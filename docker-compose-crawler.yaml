@@ -20,6 +20,7 @@ services:
     depends_on:
       - postgres
       - redis
+
   postgres:
     image: postgres:14
     container_name: postgres
